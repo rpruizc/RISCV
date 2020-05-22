@@ -1,8 +1,9 @@
+# From FE3100-G000's GPIO Peripheral Offset Registers Datasheet section
+
 .equ GPIO_OUTPUT_EN,   0x008
 .equ GPIO_OUTPUT_VAL,  0x00C
 .equ GPIO_OUTPUT_XOR,  0x040
 
-// Offsets
 .equ GPIO_RGB_PINS,    0x680000
 .equ GPIO_RED_LED,     0x400000
 .equ GPIO_BLUE_LED,    0x200000

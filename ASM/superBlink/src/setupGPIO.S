@@ -1,6 +1,8 @@
-.section .text # Text is coming
-.align 2  # Memory align
-.globl setupGPIO
+# Assembler directives
+# Commands to the assembler rather than code to be translated by it.
+.section .text                    # Enter text section
+.align 2                          # Align following code to 2^2 bytes
+.globl setupGPIO                  # Declare global symbol "setupGPIO"
 
 .include "memory_map.inc"
 .include "gpio.inc"
